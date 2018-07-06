@@ -1,0 +1,55 @@
+body{
+  background-image: url(../imagen/fondo.jpg);
+  background-repeat: no-repeat;
+  padding: 10%;
+}
+
+.título{
+  text-align: center;
+  padding: 10%;
+}
+
+.botones{
+  text-align: center;
+}
+
+/*  Solo modificar botones del div, no el div completo */
+.botones button{
+  padding: 2%;
+  border-radius: 7px;
+  font-size: 20px;
+  background-color: antiquewhite;
+  margin: 2% 2% 6% 2%;
+}
+
+button:hover {
+background-color: yellow;
+color: green;
+}
+
+.text-hide {
+  background-color: aliceblue;
+  padding: 2%;
+  border: 2px solid red;
+  border-radius: 7px;
+  margin-bottom:5%;
+}
+
+img{
+  width: 100%;
+}
+
+.img_ show{
+  display: none;
+}
+
+.ada{
+  background-color: aliceblue;
+  padding: 2%;
+  border: 2px solid red;
+  border-radius: 7px;
+}
+
+.hide{
+  display: none;
+}
